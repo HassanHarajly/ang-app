@@ -1,4 +1,16 @@
 
-img{
-  border-radius: 500px;
+
+#main{
+  background: #191a1d;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+  background-size: 700px;
+  height: 400px;
+}
+
+
+a, h1{
+  color: white;
+}
+#NameTitle{
+  font-size: 1.5rem;
 }
