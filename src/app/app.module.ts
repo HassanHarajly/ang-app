@@ -5,11 +5,15 @@ import { AppComponent } from './app.component';
 import { IntroPageComponent } from './components/intro-page/intro-page.component';
 import {RouterModule} from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IntroPageComponent
+    IntroPageComponent,
+    AboutMeComponent,
+    HeaderComponent
   ],
     imports: [
         BrowserModule,
